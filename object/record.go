@@ -39,6 +39,7 @@ type Record struct {
 
 	Organization string `xorm:"varchar(100)" json:"organization"`
 	ClientIp     string `xorm:"varchar(100)" json:"clientIp"`
+	UserAgent    string `xorm:"varchar(100)" json:"userAgent"`
 	User         string `xorm:"varchar(100)" json:"user"`
 	Method       string `xorm:"varchar(100)" json:"method"`
 	RequestUri   string `xorm:"varchar(1000)" json:"requestUri"`
@@ -51,6 +52,7 @@ type Record struct {
 
 	Provider    string `xorm:"varchar(100)" json:"provider"`
 	Block       string `xorm:"varchar(100)" json:"block"`
+	Transaction string `xorm:"varchar(500)" json:"transaction"`
 	IsTriggered bool   `json:"isTriggered"`
 }
 

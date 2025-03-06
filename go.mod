@@ -1,6 +1,8 @@
 module github.com/casvisor/casvisor
 
-go 1.20
+go 1.21
+
+toolchain go1.23.6
 
 require (
 	cloud.google.com/go/compute v1.20.1
@@ -21,6 +23,8 @@ require (
 	github.com/luthermonson/go-proxmox v0.2.1
 	github.com/pkg/errors v0.9.1
 	github.com/qiangmzsx/string-adapter/v2 v2.2.0
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.1104
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tbaas v1.0.1104
 	github.com/ua-parser/uap-go v0.0.0-20240113215029-33f8e6d47f38
 	golang.org/x/net v0.29.0
 	google.golang.org/grpc v1.55.0
